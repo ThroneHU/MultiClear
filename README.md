@@ -3,7 +3,7 @@
 ---
 ## C. Hu, T. Neate, L. Gionfrida 
 ---
-This project is an oral presentation at BioRob2024. <br>
+<!-- This project is an oral presentation at BioRob2024. -->
 
 [(Project Page)](https://sites.google.com/view/tyronehu/research/multiclear) [(PDF)](https://sites.google.com/view/tyronehu/research/multiclear) [(Slides)](https://sites.google.com/view/tyronehu/research/multiclear) [(Video)](https://sites.google.com/view/tyronehu/research/multiclear)
 
@@ -22,27 +22,15 @@ pip3 install -r requirements.txt
 
 2. Clone the repository using the command:
 ```python
-git clone https://github.com/ehsanik/touchTorch
-cd touchTorch
+git clone https://github.com/papersbms/MultiClear.git
+cd MultiClear
 ```
 
-### PointNet++
+3. Deploy *'esp32/*'* to an ESP32 board
 
-1. Download the PointNet++ from [here](https://github.com/charlesq34/pointnet2).
+4. Deploy *'raspberry/*'* to a raspberry board
 
-2. Move the train and Inference scripts to the solver directory.
-
-### Data Preparation
-
-1. Annotate point cloud data using *semantic-segmentation-editor* and collect **.pcd* labels.
-
-2. Generate **.npy* data for `train/val/` by modifying mode.
-```python
-cd utils
-python collect_biorob_3data.py --mode train
-```
-
-Processed data will be saved in `datasets/sub_ycb/train`.
+5. Deploy *'solver/*'* to a server with a GPU
 
 ### Run
 ```python
@@ -51,16 +39,11 @@ python test_e2e.py
 ```
 
 ### Reference By
-[yanx27/Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)
+[alphacep/vosk-api](https://github.com/alphacep/vosk-api)
 
 ### Citation
 
 If you find this project useful in your research, please consider citing:
 ```
-@article{hu2024pointgrasp,
-  title={PointGrasp: Point Cloud-based Grasping for Tendon-driven Soft Robotic Glove Applications},
-  author={Hu, Chen and Lyu, Shirui and Rho, Eojin and Kim, Daekyum and Luo, Shan and Gionfrida, Letizia},
-  journal={arXiv preprint arXiv:2403.12631},
-  year={2024}
-}
+
 ```
