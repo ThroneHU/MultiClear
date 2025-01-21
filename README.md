@@ -7,7 +7,7 @@ This project is an oral presentation at BioRob2024. <br>
 
 [(Project Page)](https://sites.google.com/view/tyronehu/research/multiclear) [(PDF)](https://sites.google.com/view/tyronehu/research/multiclear) [(Slides)](https://sites.google.com/view/tyronehu/research/multiclear) [(Video)](https://sites.google.com/view/tyronehu/research/multiclear)
 
-![image](https://github.com/ThroneHU/MultiClear/tree/main/figs/fig_overview.svg)
+![image](https://github.com/ThroneHU/MultiClear/blob/main/figs/fig_overview.svg)
 
 ### Abstract
 
