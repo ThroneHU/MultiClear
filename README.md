@@ -1,4 +1,3 @@
-# MultiClear
 # [MultiClear: Multimodal Soft Exoskeletal Glove for Transparent Object Grasping Assistance](https://github.com/ThroneHU/MultiClear)
 ---
 ## C. Hu, T. Neate, L. Gionfrida 
